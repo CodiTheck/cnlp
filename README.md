@@ -141,7 +141,16 @@ Execution results:
 [12:34:40 544ms MainThread] Executed in 1.028sec.
 
 4 results found.
-For nativespeakers of English, as well as for those learning it as a new language, grammarpresents a very serious challenge to speaking and writing both accurately andeffectively. This book isthat guide: a clear, unambiguous, and comprehensive source of information thatcovers all the relevant topics of English grammar, while still being easy tounderstand and enjoyable to read. Learning how the English language works will enhance your engagement withspeech and writing every day, from the books you read, to the e-mails you write,to the conversations you have with friends and strangers alike. While it is certainly important to learn the structures, styles, and rules that shapethe language, the key to truly learning English is to read and listen to the waypeople write and speak every day, from the most well-known authors to thepeople you talk to on the bus.
+For native speakers of English, as well as for those learning it as a new language, 
+grammar presents a very serious challenge to speaking and writing both accurately and effectively. 
+This book is that guide: a clear, unambiguous, and comprehensive source of information 
+that covers all the relevant topics of English grammar, while still being easy to 
+understand and enjoyable to read. Learning how the English language works will enhance 
+your engagement with speech and writing every day, from the books you read, to the e-mails 
+you write, to the conversations you have with friends and strangers alike. While it is certainly 
+important to learn the structures, styles, and rules that shape the language, the key to 
+truly learning English is to read and listen to the way people write and speak every day, 
+from the most well-known authors to the people you talk to on the bus.
 
 ```
 
