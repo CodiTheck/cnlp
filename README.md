@@ -1,4 +1,7 @@
 # CNLP
+![](https://img.shields.io/badge/Python-3.8.10-blue)
+![](https://img.shields.io/badge/Spacy-3.4.3-ff69b4)
+
 CNLP is aset of text processing tools with different NLP (Natural Language Processing) techniques.
 
 <br/>
@@ -8,7 +11,7 @@ CNLP is aset of text processing tools with different NLP (Natural Language Proce
 ### Install python3 
 
 ```sh
-sudo apt install python3
+sudo apt install python3;\
 sudo apt install python3-pip
 ```
 
@@ -57,7 +60,6 @@ Python 3.8.10
 
 ```sh
 pip install -r requirements.txt
-
 ```
 
 ## Usage
@@ -101,22 +103,21 @@ carry it with you into the world.
 2. Create a python module named `main.py` in root project and write the following code into it.
 
 ```python
-from cnlp import GSET as settings   # Importation of config variable
-from cnlp.texumer import RlvSent    # Importation of algorithm of extraction of relevant sentences from a text '''
+from cnlp import GSET as settings  # Importation of config variable.
+from cnlp.texumer import RlvSent  # Importation of algorithm of extraction of relevant sentences from a text.
 
 
 # we set the language of the NLP processing in English, in this cas.
-settings['LANGUAGE_PROCESSED'] = 'EN';
-
+settings['LANGUAGE_PROCESSED'] = 'EN'
 
 with open('en_text_file.txt', 'r', encoding='utf-8') as f:
-    text = f.read();        ''' # open file and read the text content '''
-    algo = RlvSent();       ''' # initialize the algorithm '''
-    res  = algo(text);      ''' # apply a traitment on the text '''
+    text = f.read()  # open file and read the text content.
+    algo = RlvSent()  # initialize the algorithm.
+    res  = algo(text)  # apply a traitment on the text.
     
     # we show the results
-    print("\n{} results found.".format(len(res)));
-    print(' '.join(res));
+    print("\n{} results found.".format(len(res)))
+    print(' '.join(res))
 
 
 ```
@@ -125,7 +126,6 @@ with open('en_text_file.txt', 'r', encoding='utf-8') as f:
 
 ```sh
 python main.py
-
 ```
 
 Execution results:
