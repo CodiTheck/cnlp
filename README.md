@@ -104,7 +104,8 @@ carry it with you into the world.
 
 ```python
 from cnlp import GSET as settings  # Importation of config variable.
-from cnlp.texumer import RlvSent  # Importation of algorithm of extraction of relevant sentences from a text.
+from cnlp.texumer import RlvSent
+"""Importation of algorithm of extraction of relevant sentences from a text."""
 
 
 # we set the language of the NLP processing in English, in this cas.
